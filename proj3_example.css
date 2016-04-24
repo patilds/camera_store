@@ -1,0 +1,39 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    }
+    
+html, body {
+    height: 100%;
+    background-color: #5C9CCC;
+    }
+        
+h1 {
+    padding: 10px 0 10px 0;
+    text-align: center;
+    }   
+    
+#main {
+    background-color: #5C9CCC !important;
+    background-image: none;
+    padding: 15px;
+    } 
+    
+#cart table {
+    margin-left: auto;
+    margin-right: auto;
+    }    
+    
+#cart th, td {
+    background-color: white;
+    padding: 5px 20px 5px 20px;
+    }
+    
+#counter {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-weight: normal;
+    font-size: 80%;
+    }            

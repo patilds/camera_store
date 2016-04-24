@@ -1,0 +1,276 @@
+body {
+}
+/*Header*/
+div#header {
+    display: inline-block;
+    background-color: #173447;
+    color: white;
+    width: 100%;
+    height: 5%;
+    text-align: center;
+}
+
+img#logo {
+    height: 80px;
+    width: 400px;
+}
+
+span#home {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+}
+
+    span#home a {
+        text-decoration: none;
+    }
+
+div#header div#cart {
+    position: absolute;
+    top: 3%;
+    right: 5%;
+    font-size: large;
+    vertical-align: middle;
+}
+
+div#cart a {
+    text-decoration: none;
+}
+
+img#carticon {
+    width: 50px;
+    height: 50px;
+}
+
+div#header a {
+    font-size: x-large;
+    margin-right: 10px;
+    color: white;
+}
+
+img {
+    max-height: 500px;
+    max-width: 350px;
+}
+
+input#addButton {
+    width: 150px;
+    height: 40px;
+    border-radius: 5px,5px;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+    float: right;
+}
+
+    input#addButton:disabled {
+        cursor: not-allowed;
+        background-color: lightgray;
+    }
+
+
+div#addcartdiv {
+    display: block;
+    position: absolute;
+    top: 25%;
+    right: 1%;
+    font-size: large;
+    text-align: center;
+}
+
+div#addNotify {
+    margin-top: 10px;
+    font-size: large;
+    position: absolute;
+    top: 39%;
+    right: 1%;
+    font-family: 'Baskerville Old Face';
+    color: #1a7121;
+}
+
+div#product {
+    position: absolute;
+    top: 30%;
+    left: 1%;
+}
+
+div#prodDetails {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    width: 40%;
+    font-size: large;
+    text-align: justify;
+}
+
+
+div#shoppingcart {
+    color: black;
+    font-size: x-large;
+}
+
+input#qty {
+    width: 150px;
+    height: 30px;
+    font-size: large;
+    margin-left: 10px;
+}
+
+table#carttable {
+    table-layout: fixed;
+    width: 100%;
+}
+
+    table#carttable, table#carttable td {
+        border: 1px solid #808080;
+        text-align: center;
+        font-size: large;
+        height: 60px;
+    }
+
+        table#carttable tr:first-child td {
+            font-weight: bold;
+            color: #204524;
+        }
+
+        table#carttable tr td:first-child {
+            width: 300px;
+        }
+
+            table#carttable tr td:first-child img {
+                max-width: 60px;
+                max-height: 60px;
+                float: left;
+            }
+
+p#status {
+    font-size: x-large;
+    display: inline;
+    color: #1a7121;
+}
+
+div#checkoutdialog {
+    vertical-align: middle;
+}
+
+input#checkout {
+    margin-top: 20px;
+    float: right;
+    border-radius: 5px;
+    background-color: #0f79d0;
+    color: white;
+    cursor: pointer;
+    height: 40px;
+    width: 200px;
+    font-size: large;
+}
+
+    input#checkout:hover {
+        font-size: 16pt;
+    }
+
+input.removeFromCart {
+    background-color: #d24848;
+    color: white;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+    input.removeFromCart:hover {
+        font-size: 16pt;
+    }
+
+form#checkoutform {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+    form#checkoutform div {
+        margin-bottom: 10px;
+        vertical-align: middle;
+        text-align: left;
+    }
+
+        form#checkoutform div.label {
+            font-weight: bold;
+            margin-bottom: 10px;
+            margin-top: 10px;
+            font-size: x-large;
+            font-family: Calibri;
+            display: inline;
+        }
+
+        form#checkoutform div label {
+            display: inline-block;
+            width: 220px;
+            vertical-align: middle;
+            text-align: left;
+        }
+
+        form#checkoutform div input[type=text] {
+            width: 300px;
+            height: 30px;
+            text-align: left;
+        }
+
+input#sameadrs {
+    display: inline;
+}
+
+form#checkoutform div input[type=button] {
+    width: 150px;
+    height: 40px;
+}
+
+input#submit {
+    text-align: center;
+    background-color: #37a033;
+    color: white;
+    height: 40px;
+    width: 200px;
+    font-size: large;
+    cursor: pointer;
+}
+
+    input#submit:hover {
+        font-size: 16pt;
+    }
+
+input#reset {
+    background-color: #df4e4e;
+    color: white;
+    height: 40px;
+    width: 100px;
+    font-size: large;
+    cursor: pointer;
+}
+
+    input#reset:hover {
+        font-size: 16pt;
+    }
+
+form#checkoutform div input#month, form#checkoutform div input#year {
+    width: 40px;
+}
+
+input.changeqt {
+    width: 100%;
+    height: 100%;
+}
+
+#totalPriceLabel, #totalPrice {
+    margin-top: 20px;
+    float: left;
+    margin-right: 10px;
+}
+
+div#buttonHolder {
+    position: relative;
+    display: block;
+    text-align: center;
+    left: 30%;
+    margin: 20px 20px 20px 20px;
+}

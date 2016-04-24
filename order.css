@@ -1,0 +1,138 @@
+div#header {
+    display: inline-block;
+    background-color: #173447;
+    color: white;
+    width: 100%;
+    height: 5%;
+    text-align: center;
+}
+
+img#logo {
+    height: 80px;
+    width: 400px;
+}
+
+span#home {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+}
+
+    span#home a {
+        text-decoration: none;
+        color: white;
+        font-size: x-large;
+    }
+
+h1 {
+    text-align: center;
+    color: #2a7bb8;
+}
+
+table#summarytable {
+    
+    
+}
+
+    table#summarytable, table#summarytable td {
+        border: 1px solid #808080;
+        text-align: center;
+        font-size: large;
+        height: 60px;
+    }
+
+        table#summarytable tr:first-child td {
+            font-weight: bold;
+            color: #204524;
+        }
+
+        table#summarytable tr td:first-child {
+            width: 300px;
+        }
+
+            table#summarytable tr td:first-child img {
+                max-width: 60px;
+                max-height: 60px;
+                float: left;
+            }
+
+div#summary {
+    display: block;
+    position: absolute;
+    right: 15%;
+    overflow:scroll;
+    height:auto;
+    max-height: 35%;
+    width:500px;
+}
+
+div#adrsSummary {
+    font-size: large;
+    border: 1px solid black;
+    width: 30%;
+    display: block;
+    float:left;
+    text-align:left;
+    overflow:scroll;
+}
+
+
+div#totalprice{
+    position:absolute;
+    left:40%;
+    bottom:15%;
+    font-size:large;
+    text-align:justify;
+    width:600px;
+}
+
+div#totalprice div{
+    width:600px;
+}
+
+div#totalPrice div label{
+    width:300px;
+    float:left;
+    text-align:right;
+}
+
+div#totalprice div span{
+   width:300px;
+   float:right;
+}
+
+div#buttonHolder{
+    position:absolute;
+    bottom:5%;
+    left:40%;
+    text-align:center;
+    display:block;
+}
+
+input#submit {
+    text-align: center;
+    background-color: #37a033;
+    color: white;
+    height: 40px;
+    width: 200px;
+    font-size: large;
+    cursor: pointer;
+    margin-left:20px;
+}
+
+    input#submit:hover {
+        font-size: 16pt;
+    }
+
+input#cancel {
+    background-color: #df4e4e;
+    color: white;
+    height: 40px;
+    width: 100px;
+    font-size: large;
+    cursor: pointer;
+}
+
+    input#cancel:hover {
+        font-size: 16pt;
+    }

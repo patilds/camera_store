@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<title>Project #3 Example</title>
+	<meta http-equiv="content-type" 
+		content="text/html;charset=utf-8" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+           
+    <link rel="stylesheet" type="text/css" 
+    href="proj3_example.css" />   
+    <link rel="stylesheet" type="text/css" 
+    href="jquery-ui-1.10.2.custom/css/custom-theme/jquery-ui-1.10.2.custom.min.css" />          
+
+    <script type="text/javascript" src="/jquery/jquery.js"></script>
+ 
+    <script type="text/javascript" src="jquery-ui-1.10.2.custom/js/jquery-ui-1.10.2.custom.min.js"></script>     
+    <script type="text/javascript" src="shopping_cart.js"></script>
+    <script type="text/javascript" src="proj3_example.js"></script>    
+    
+</head>
+
+
+<body>
+    <div class="ui-widget">
+    <div class="ui-widget-header">
+    <div id="counter">Your cart: <span id="count">0</span></div>
+		<h1>Cookie Shopping Cart Example</h1>
+    </div>  
+    
+    <div id="main" class="ui-widget-content">    
+        SKU: <input type="text" id="sku" />
+        Quantity: <input type="text" id="qty" /><br /><br />
+        <input type="button" value="Add to Cart" id="addButton" class="btn"/>
+        <input type="button" value="Delete from Cart" id="deleteButton" />   
+        <input type="button" value="Change Quantity" id="quantityButton" /> 
+        <br /><br />
+        <input type="button" value="Order Now" id="order_button" />                             		                                
+    	</p>        
+        <div id="cart"></div>
+    </div>  
+<!-- The order form is not visible until the Order Now button is clicked -->
+<div id="dialog-modal" class="widget-dialog-container" title="Complete Your Order">
+<form method="post" action="/perl/jadrn000/echo.cgi">    
+    <table>
+        <tr>
+            <td>Name:</td>
+            <td><input type="text" name="name" size="20" /></td>
+        </tr>
+        <tr>
+            <td>Address:</td>
+            <td><Input type="text" name="address" size="20" /></td>
+        </tr>
+        <tr>
+            <td>City:</td>
+            <td><Input type="text" name="city" size="20" /></td>
+        </tr>
+        <tr>
+            <td>State:</td>
+            <td><Input type="text" name="state" size="2" /></td>
+        </tr>
+        <tr>
+            <td>Zip:</td>
+            <td><Input type="text" name="zip" size="9" /></td>            
+        </tr> 
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>         
+        <tr>
+            <td><input type="reset" /></td>
+            <td><input type="submit" class="ui-button" value="Submit Order"/></td>
+        </tr>       
+    </table> 
+</form>       
+</div> 
+</div>
+</body>
+
+</html>
