@@ -1,11 +1,3 @@
-/*  SubmitOrder.java
-    Karthik Thamatam   
-    Account:  jadrn039 
-    CS645 
-    Project #3
-    Spring 2015
- */
-
 import java.io.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
