@@ -2,10 +2,6 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
           "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!--    Thamatam, Karthik    Account:  jadrn039
-        CS645, Spring 2015
-        Project #3
--->
 <head>
     <title>Teekay's Camera Store</title>
     <link rel="stylesheet"type="text/css" href="/jadrn039/ordersuccess.css" />
